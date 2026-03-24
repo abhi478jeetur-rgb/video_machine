@@ -1,0 +1,41 @@
+# Video Automation Machine - .gitignore
+
+# Environment files (contains API keys - DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Output files
+output/
+temp/
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/

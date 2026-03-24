@@ -1,0 +1,14 @@
+# Video Automation Machine Requirements
+
+# Core dependencies
+httpx>=0.26.0
+moviepy>=1.0.3
+python-dotenv>=1.0.0
+edge-tts>=6.1.4
+
+# Web UI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Optional dependencies
+# flask>=3.0.0  # Alternative to FastAPI
